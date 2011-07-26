@@ -5,15 +5,20 @@ Author:              Markus Kaufmann
 Maintainer:          kaufman4@stud.fh-sm.de
 Build-Type:          Simple
 Cabal-Version:       >=1.2
+License:	            BSD3
 
-Executable hangman
+Executable Hangman
   hs-source-dirs:    src
   Main-is:           hangman.hs
   Build-Depends:     base >= 3 && < 5,
                      ansi-terminal,
                      random,
                      directory
-                     
+  Other-Modules:     Game,
+                     Ascii,
+                     HelpFunctions,
+                     Init,
+                     Output                     
                      
 
                      

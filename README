@@ -1,7 +1,7 @@
 Projekt: Hangman
 Autor: Markus Kaufmann
 Vorlesung: Funktionale Programmierung (SWEProg V3), BaI6, SS 2011
-Wiki: 
+Wiki: https://pads.fh-schmalkalden.de/wiki/Projekte/Hangman
 
 Installiert werden kann das Projekt mit:
 cabal install --user

@@ -9,9 +9,9 @@ cabal install --user
 Dokumentation mit Haddock:
 cabal haddock --executables --hyperlink-source
 
-Damit das Programm richtig ausgeführt werden kann, ist es notwendig das eine Datei mit dem Namen "Woerter" 
-im Ordner der ausführbaren Hangman-Datei vorhanden ist.
-Die Datei "Woerter" kann beliebige Wörter und Sätze enthalten, die durch Zeilenumbrüche getrennt werden und aus denen 
-dann jede Spielrunde eins ausgewählt wird das erraten werden muss.
+Damit das Programm richtig ausgefuehrt werden kann, ist es notwendig das eine Datei mit dem Namen "Woerter" 
+im Ordner der ausfuehrbaren Hangman-Datei vorhanden ist.
+Die Datei "Woerter" kann beliebige Woerter und Saetze enthalten, die durch Zeilenumbrueche getrennt werden und aus denen 
+dann jede Spielrunde eins ausgewaehlt wird das erraten werden muss.
 
 Im Ordner Bin befindet sich eine Beispiel Woerterdatei.

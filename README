@@ -1,0 +1,17 @@
+Projekt: Hangman
+Autor: Markus Kaufmann
+Vorlesung: Funktionale Programmierung (SWEProg V3), BaI6, SS 2011
+Wiki: 
+
+Installiert werden kann das Projekt mit:
+cabal install --user
+
+Dokumentation mit Haddock:
+cabal haddock --executables --hyperlink-source
+
+Damit das Programm richtig ausgeführt werden kann, ist es notwendig das eine Datei mit dem Namen "Woerter" 
+im Ordner der ausführbaren Hangman-Datei vorhanden ist.
+Die Datei "Woerter" kann beliebige Wörter und Sätze enthalten, die durch Zeilenumbrüche getrennt werden und aus denen 
+dann jede Spielrunde eins ausgewählt wird das erraten werden muss.
+
+Im Ordner Bin befindet sich eine Beispiel Woerterdatei.

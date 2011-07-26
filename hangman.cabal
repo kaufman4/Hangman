@@ -1,0 +1,19 @@
+﻿Name:                Hangman
+Version:             0.1
+Description:         Hangman Konsolenanwendung
+Author:              Markus Kaufmann
+Maintainer:          kaufman4@stud.fh-sm.de
+Build-Type:          Simple
+Cabal-Version:       >=1.2
+
+Executable hangman
+  hs-source-dirs:    src
+  Main-is:           hangman.hs
+  Build-Depends:     base >= 3 && < 5,
+                     ansi-terminal,
+                     random,
+                     directory
+                     
+                     
+
+                     

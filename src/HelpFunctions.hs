@@ -1,6 +1,8 @@
 module HelpFunctions where
 import System.Console.ANSI
 import Data.Char(toUpper)
+import Data.Char(toLower)
+
 
 -- | prueft ob der Benutzer ein richtiges Zeichen eingegeben hat   
 checkInput :: IO Char                    
@@ -26,7 +28,7 @@ inputLetter usedletters=
 -- | konvertiert eine Liste in einen String
 convListToStr :: Monad m => [Char] -> m Char
 convListToStr []=convListToStr " "
-convListToStr (x:xs) = return x  
+convListToStr (x:xs) = return $ toLower(x)  
 
 -- | loescht das Konsolenfenster
 resetScreen :: IO ()
